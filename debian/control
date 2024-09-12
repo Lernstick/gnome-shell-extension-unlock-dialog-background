@@ -1,0 +1,16 @@
+Source: gnome-shell-extension-unlock-dialog-background
+Section: gnome
+Priority: extra
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://extensions.gnome.org/extension/1476/unlock-dialog-background/
+
+Package: gnome-shell-extension-unlock-dialog-background
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell
+Recommends: gnome-tweaks
+Description: Enables setting a custom unlock dialog background.
+ In GNOME 3.38 the unlock dialog background is a blurred version of the default
+ background. This extension makes it possible to select a custom background
+ picture for the unlock dialog.
